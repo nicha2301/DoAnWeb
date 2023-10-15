@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="css/header&footer.css"/>
-    <link rel="stylesheet" href="css/HomePage/styles.css">
+    <link rel="stylesheet" href="../css/form.css"/>
+    <script src="../js/scipts.js"></script>
+    <link rel="stylesheet" href="../css/header&footer.css"/>
+    <link rel="stylesheet" href="../css/HomePage/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Title</title>
+    <title>Đăng ký</title>
 </head>
 
 <body>
@@ -29,7 +31,7 @@
                         <li class="menu-item">
                             <a href=""><span class="nav-link-text">Giới thiệu</span></a>
 
-                                
+
                         </li>
                         <li class="menu-item">
                             <a href=""><span class="nav-link-text">Sản
@@ -87,13 +89,34 @@
                     </button>
                 </form>
                 <div class="action">
-                    <button class="sign-in">Đăng nhập</button>
+                    <button class="sign-in" onclick="location.href='signIn.html'">Đăng nhập</button>
                 </div>
             </div>
         </div>
     </header>
 
     <div class="body">
+        <div class="form-container">
+            <form class="signup-form">
+                <h2>Đăng Ký</h2>
+                <div class="input-group">
+                    <input type="email" id="email-forgot" name="email-forgot" placeholder="Email" required>
+                </div>
+                <div id="email-error" style="color: red;"></div>
+
+                <button type="submit" onclick="signUpValidate()">Đăng Ký</button>
+                <div class="terms-checkbox">
+                    <input type="checkbox" id="agree-terms" name="agree-terms" required>
+                    <label for="agree-terms">Tôi đồng ý với điều khoản dịch vụ và chính sách bảo mật</label>
+                </div>
+                <div class="or"><span>Hoặc </span></div>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><img src="../assets/images/Facebook_Logo_.jpg" alt="Facebook"></a>
+                    <a href="https://accounts.google.com/"><img src="../assets/images/google.jpg" alt="Google"></a>
+                </div>
+                <div class="login-link">Bạn đã có tài khoản? <a href="signIn.html">Đăng nhập</a></div>
+            </form>
+        </div>
 
     </div>
     <footer class="footer-container">
@@ -216,12 +239,7 @@
     </footer>
 </div>
 
-<script>
-    window.addEventListener('scroll', () => {
-        var header = document.querySelector('.container')
-        header.classList.toggle('sticky', window.scrollY > 100)
-    })
-</script>
+
 </body>
 
 </html>
