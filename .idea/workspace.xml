@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39163a7-1324-40c4-8b43-3d7ddb3bf68a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Facebook_Logo_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/formIcon/Facebook_Logo_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/google.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/formIcon/google.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +78,11 @@
       <workItem from="1697380771416" duration="330000" />
       <workItem from="1697381158873" duration="287000" />
       <workItem from="1697381456045" duration="127000" />
+      <workItem from="1697451959992" duration="1004000" />
+      <workItem from="1697537098660" duration="376000" />
+      <workItem from="1697546984830" duration="34000" />
+      <workItem from="1697548621666" duration="110000" />
+      <workItem from="1697629567075" duration="604000" />
     </task>
     <servers />
   </component>
