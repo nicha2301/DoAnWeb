@@ -40,6 +40,10 @@ a {
     width: 100px;
 }
 
+.sticky .header-center {
+    margin: 0 60px;
+}
+
 
 .header-left img {
     height: 100px;
@@ -262,7 +266,7 @@ strong {
 
 .main-footer>div {
     padding: 10px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .elementor-widget-wrap {
