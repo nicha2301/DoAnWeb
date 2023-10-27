@@ -1,0 +1,169 @@
+.body {
+    border-color: rgba(232, 232, 232, 1);
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+
+.wrapper-content {
+    max-width: 1200px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.single-breadcrumbs-wrapper .wd-breadcrumbs {
+    flex: 1 1 auto;
+    text-align: start;
+    font-size: 95%;
+}
+
+.woocommerce-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--color-gray-800);
+}
+
+.woocommerce-breadcrumb span {
+    font-weight: bold;
+}
+
+.woocommerce-breadcrumb a,
+.yoast-breadcrumb a {
+    color: #777;
+}
+
+.woocommerce-breadcrumb a:after {
+    content: "/";
+    margin: 0 5px;
+}
+
+.product-images {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.detail-product {
+    position: relative;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.row {
+    display: flex;
+    padding-top: 30px;
+}
+
+.owl-stage {
+    display: flex;
+}
+
+.item {
+    transition: all 0.5s;
+}
+
+.product-image-wrap img {
+    width: 100%;
+}
+
+
+
+
+
+
+.wd-product-brands {
+    flex-direction: column;
+    float: right;
+    margin-left: 10px;
+}
+
+.wd-product-brands a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+.wd-product-brands img {
+    max-width: 90px;
+    width: 100%;
+}
+
+.summary-inner>.wd-action-btn {
+    margin-inline-end: 20px;
+    margin-bottom: 20px;
+}
+
+.wd-action-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    --action-btn-color: #333;
+    --action-btn-hover-color: #777;
+}
+
+.wd-action-btn span {
+    font-size: 14px;
+}
+
+.wd-action-btn.wd-style-text>a {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.wd-action-btn>a {
+    color: #333;
+    cursor: pointer;
+}
+
+.product_title {
+    color: #26B402;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.2;
+    --page-title-display: block;
+    margin-bottom: 20px;
+}
+
+.wd-action-btn.wd-style-text i {
+    margin-inline-end: 0.3em;
+    font-size: 110%;
+}
+
+.summary-inner .product_meta {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.105);
+}
+
+.product_meta .meta-label {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.product_meta a {
+    color: #777777;
+}
+
+.headding-fix {
+    position: fixed;
+    top: 150px;
+    width: 579px;
+}
+
+.headding-absolute {
+    position: absolute;
+    top: auto;
+    width: 579px;
+    bottom: 0px;
+}
+
+.product-image-thumbnail:hover {
+    opacity: 0.7;
+}
+
