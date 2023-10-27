@@ -9,14 +9,30 @@ window.addEventListener("scroll", () => {
 
 
 var items = document.querySelectorAll(".product-image-thumbnail img");
-// item.addEventListener("mouseover", e => {
-//     console.log(e.target)
-// })
-
 var previewImg = document.querySelector(".product-image-wrap img")
+var seeMore = document.getElementById('see-more')
 
 items.forEach(item => {
     item.addEventListener("mouseover", e => {
         previewImg.src = e.target.src
+        seeMore.href = e.target.src
     })
 });
+
+var containerImg = document.querySelector('.product-image-wrap')
+
+containerImg.addEventListener("mousemove", e => {
+    var x = e.clientX - e.target.offsetLeft;
+    var y = e.clientY - e.target.offsetTop;
+
+    previewImg.style.transformOrigin = `${x}px ${y}px` 
+    previewImg.style.transform = "scale(1.3)"
+})
+
+containerImg.addEventListener("mouseleave", e => {
+    previewImg.style.transformOrigin = "center"
+    previewImg.style.transform = "scale(1)"
+})
+
+
+
