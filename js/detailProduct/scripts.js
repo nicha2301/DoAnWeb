@@ -4,7 +4,7 @@ window.addEventListener("scroll", () => {
 
     var headding = document.querySelector(".summary-inner");
     headding.classList.toggle("headding-fix", window.scrollY > 30)
-    headding.classList.toggle("headding-absolute", window.scrollY > 531)
+    headding.classList.toggle("headding-absolute", window.scrollY > 553)
 });
 
 
