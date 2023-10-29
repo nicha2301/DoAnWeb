@@ -1,0 +1,270 @@
+.body>.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.page-title {
+    height: 200px;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.page-title .title {
+    color: white;
+    font-size: 68px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content,
+.sidebar {
+    padding: 0 15px;
+}
+
+/* SIDE BAR */
+.container .sidebar {
+    width: 25%;
+}
+
+.widget {
+    line-height: 1.4;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+
+.widget:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+}
+
+
+.widget>span {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-categories {
+    margin-top: 10px;
+}
+
+.product-categories li {
+    list-style: none;
+}
+
+.product-categories li a {
+    font-size: 14px;
+    color: #777777;
+    display: block;
+    flex: 1 1 calc(100% - 40px);
+    padding-block: 8px;
+    padding-inline-end: 5px;
+    width: calc(100% - 40px);
+    text-decoration: none;
+}
+
+.product-categories li a:hover {
+    color: #333;
+}
+
+.wd-filter-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.wd-filter-list a {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    padding-block: 5px;
+}
+
+.wd-filter-list .count {
+    padding-inline: 5px;
+    min-width: 30px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.105);
+    border-radius: 35px;
+    color: #777;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+    margin-inline-start: 5px;
+}
+
+.wd-swatch-bg {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wd-swatch :is(img, picture) {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: inherit;
+    object-fit: cover;
+
+}
+
+.wd-filter-lable {
+    margin-left: 10px;
+}
+
+.wd-swatches-filter {
+    margin-top: 10px;
+}
+
+.wd-filter-list .wc-layered-nav-term a:hover+.count {
+    color: #fff;
+    background-color: rgb(38, 180, 2);
+    border-color: var(--wd-primary-color);
+}
+
+.shop-loop-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.wd-shop-tools {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    line-height: 2;
+}
+
+.wd-shop-tools>* {
+    margin-bottom: 10px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.woocommerce-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #333;
+}
+
+.woocommerce-breadcrumb a:last-child {
+    color: black;
+    font-weight: bold;
+}
+
+.woocommerce-breadcrumb a,
+.yoast-breadcrumb a {
+    font-size: 14px;
+    color: #777;
+}
+
+.woocommerce-breadcrumb a:first-child::after {
+    content: "/";
+    margin: 0 5px;
+}
+
+/* Product */
+.container .content {
+    width: 75%;
+}
+
+.wrapper-container .container {
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+}
+
+.wrapper-container .item {
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wrapper-container .item>div {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.wrapper-container .item p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #242424;
+    transition: all 0.3s;
+}
+
+.wrapper-container .item p:hover {
+    color: rgb(51 51 51 / 65%);
+}
+
+.wrapper-container .item img {
+    width: 270px;
+    height: 270px;
+    transition: all 1s;
+}
+
+.wrapper-container .item img:hover {
+    scale: 1.1;
+}
+
+.wrapper-container .item:hover .wd-buttons {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+.wd-buttons {
+    z-index: 4;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) !important;
+    transition: all .3s ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(12px) translateZ(0);
+}
+
+.wd-action-btn {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+
+.wd-action-btn:hover {
+    opacity: 0.7;
+}
+
+
+.wd-buttons .wd-action-btn i {
+    font-size: 20px;
+    color: #333;
+    opacity: 0.9;
+}
