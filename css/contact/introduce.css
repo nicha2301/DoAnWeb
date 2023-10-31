@@ -40,6 +40,11 @@ h2 {
     list-style: none;
     height: 40px;
 }
+.menu-2>.menu-item:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
 .mission {
     padding: 15px; 
 }
