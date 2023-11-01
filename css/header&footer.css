@@ -23,6 +23,9 @@ a {
 /* HEADER */
 .header {
     height: 103px;
+    border-color: rgba(232, 232, 232, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 .sticky {

@@ -81,6 +81,22 @@ body {
     cursor: pointer;
 }
 
+
+.banner .owl-dots {
+    margin-top: 20px;
+}
+
+
+.banner .owl-dots .owl-dot span {
+    height: 13px !important;
+    width: 13px !important;
+}
+
+.banner .owl-nav {
+    display: none;
+}
+
+
 /* SECTION 2 */
 
 #section2 {
@@ -477,17 +493,17 @@ body {
     border: unset;
 }
 
-#section5  .owl-nav span:hover {
+#section5 .owl-nav span:hover {
     background-color: white;
     color: black;
 }
 
-#section5  .owl-nav button {
+#section5 .owl-nav button {
     margin: 0;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-    background: white!important;
+    background: white !important;
     color: black !important;
     text-decoration: none;
 }
@@ -499,6 +515,7 @@ body {
     top: 46%;
     transform: translateY(-50%);
 }
+
 #section5 .owl-nav .owl-next {
     position: absolute;
     right: -28px;
