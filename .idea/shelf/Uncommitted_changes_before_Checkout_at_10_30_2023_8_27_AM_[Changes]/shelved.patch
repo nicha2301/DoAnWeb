@@ -1,0 +1,77 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b39163a7-1324-40c4-8b43-3d7ddb3bf68a\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/contact.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/contact.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/forgotPass.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/forgotPass.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/introduce.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/introduce.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/signIn.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/signIn.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pages/signUp.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pages/signUp.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;mtuog&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"cce544ab-02cc-4dbe-a9cf-127c7c3e3ef4\" />\r\n        <option name=\"url\" value=\"https://github.com/nicha2301/DoAnWeb.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Wnu35RFGv94znDrhnSxRg83ehQ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"MinhTuongCommit\",\r\n    \"last_opened_file_path\": \"E:/GitHub/DoAnWeb\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.ide.settings.new.ui\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\GitHub\\DoAnWeb\\assets\\img\\formIcon\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b39163a7-1324-40c4-8b43-3d7ddb3bf68a\" name=\"Changes\" comment=\"\" />\r\n      <created>1697380463828</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1697380463828</updated>\r\n      <workItem from=\"1697380466217\" duration=\"223000\" />\r\n      <workItem from=\"1697380713895\" duration=\"46000\" />\r\n      <workItem from=\"1697380771416\" duration=\"330000\" />\r\n      <workItem from=\"1697381158873\" duration=\"287000\" />\r\n      <workItem from=\"1697381456045\" duration=\"127000\" />\r\n      <workItem from=\"1697451959992\" duration=\"1004000\" />\r\n      <workItem from=\"1697537098660\" duration=\"376000\" />\r\n      <workItem from=\"1697546984830\" duration=\"34000\" />\r\n      <workItem from=\"1697548621666\" duration=\"110000\" />\r\n      <workItem from=\"1697629567075\" duration=\"729000\" />\r\n      <workItem from=\"1698127446866\" duration=\"367000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 12e769a7b545213324f6f3724d53329ad5ae6be6)
++++ b/.idea/workspace.xml	(date 1698629069006)
+@@ -6,12 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="b39163a7-1324-40c4-8b43-3d7ddb3bf68a" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/forgotPass.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPass.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/introduce.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signIn.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pages/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -49,24 +43,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "MinhTuongCommit",
+-    "last_opened_file_path": "E:/GitHub/DoAnWeb",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;E:/GitHub/DoAnWeb&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="E:\GitHub\DoAnWeb\assets\img\formIcon" />
+@@ -91,6 +86,10 @@
+       <workItem from="1697548621666" duration="110000" />
+       <workItem from="1697629567075" duration="729000" />
+       <workItem from="1698127446866" duration="367000" />
++      <workItem from="1698587713352" duration="108000" />
++      <workItem from="1698596817957" duration="5000" />
++      <workItem from="1698600515272" duration="601000" />
++      <workItem from="1698629034751" duration="35000" />
+     </task>
+     <servers />
+   </component>
