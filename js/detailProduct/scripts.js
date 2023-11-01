@@ -22,8 +22,8 @@ items.forEach(item => {
 var containerImg = document.querySelector('.product-image-wrap')
 
 containerImg.addEventListener("mousemove", e => {
-    var x = e.clientX - e.target.offsetLeft;
-    var y = e.clientY - e.target.offsetTop;
+    var x = e.clientX - 100;
+    var y = e.clientY - 90;
 
     previewImg.style.transformOrigin = `${x}px ${y}px` 
     previewImg.style.transform = "scale(1.3)"
