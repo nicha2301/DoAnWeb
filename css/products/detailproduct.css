@@ -352,7 +352,6 @@
     position: relative;
     padding: 0 10px;
     margin-bottom: 20px;
-    cursor: pointer;
 }
 
 .products .wrapper-container .item>div {
@@ -360,15 +359,18 @@
     overflow: hidden;
 }
 
-.products .wrapper-container .item p {
+.products .item .product-element-bottom {
     padding: 15px;
+}
+
+.products .item .product-element-bottom a{
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.4;
     color: #242424;
     transition: all 0.3s;
 }
 
-.products .wrapper-container .item p:hover {
+.products .wrapper-container .item a:hover {
     color: rgb(51 51 51 / 65%);
 }
 
