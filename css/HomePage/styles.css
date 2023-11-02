@@ -24,7 +24,6 @@ body {
 .wrapper-slider .slider img {
     width: 1500px;
     height: 500px;
-    animation: slideShow 30s infinite;
 }
 
 @keyframes slideShow {
@@ -94,6 +93,84 @@ body {
 
 .banner .owl-nav {
     display: none;
+}
+
+
+.wrapper-container .item {
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper-container .item>div {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.item .product-element-bottom {
+    padding: 15px;
+}
+
+.item .product-element-bottom a{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #242424;
+    transition: all 0.3s;
+}
+
+.wrapper-container .item a:hover {
+    color: rgb(51 51 51 / 65%);
+}
+
+.wrapper-container .item img {
+    width: 270px;
+    height: 270px;
+    transition: all 1s;
+}
+
+.wrapper-container .item img:hover {
+    scale: 1.1;
+}
+
+.wrapper-container .item:hover .wd-buttons {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+.wd-buttons {
+    z-index: 4;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) !important;
+    transition: all .3s ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(12px) translateZ(0);
+}
+
+.wd-action-btn {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+
+.wd-action-btn:hover {
+    opacity: 0.7;
+}
+
+
+.wd-buttons .wd-action-btn i {
+    font-size: 20px;
+    color: #333;
+    opacity: 0.9;
 }
 
 
