@@ -13,7 +13,7 @@ var previewImg = document.querySelector(".product-image-wrap img")
 var seeMore = document.getElementById('see-more')
 
 items.forEach(item => {
-    item.addEventListener("mouseover", e => {
+    item.addEventListener("click", e => {
         previewImg.src = e.target.src
         seeMore.href = e.target.src
     })
