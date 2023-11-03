@@ -172,13 +172,6 @@ a {
     transition: all 0.3s;
 }
 
-.menu>.menu-item:not(:last-child)::after {
-    content: "";
-    position: relative;
-    inset-inline-end: -15px;
-    height: 18px;
-    border-right: 1px solid rgba(0, 0, 0, 0.105);
-}
 
 
 .menu>.menu-item span:hover {
