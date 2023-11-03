@@ -5,25 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39163a7-1324-40c4-8b43-3d7ddb3bf68a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/user/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/policy/agency.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/policy/partner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/policy/privacy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/agencyPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/partnerPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/privacyPolicy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/elegant-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/nice-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/slicknav.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css1/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/terms/terms.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/policy/terms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/canhan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/check_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/check_out.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forgotPass.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forgotPass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signIn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/termsAndConditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/termsPolicy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -142,7 +145,26 @@
       <workItem from="1698747579083" duration="139000" />
       <workItem from="1698772548588" duration="616000" />
       <workItem from="1698844202259" duration="1360000" />
-      <workItem from="1698845623138" duration="569000" />
+      <workItem from="1698845623138" duration="1166000" />
+      <workItem from="1698847818622" duration="148000" />
+      <workItem from="1698848022844" duration="46000" />
+      <workItem from="1698849409868" duration="3000" />
+      <workItem from="1698894320823" duration="777000" />
+      <workItem from="1698895129241" duration="48000" />
+      <workItem from="1698903104845" duration="32000" />
+      <workItem from="1698904253591" duration="391000" />
+      <workItem from="1698904857990" duration="29000" />
+      <workItem from="1698905030565" duration="622000" />
+      <workItem from="1698919765396" duration="364000" />
+      <workItem from="1698920144854" duration="96000" />
+      <workItem from="1698920324862" duration="2779000" />
+      <workItem from="1698924407359" duration="180000" />
+      <workItem from="1698986242590" duration="1253000" />
+      <workItem from="1698987531593" duration="482000" />
+      <workItem from="1698990482025" duration="10000" />
+      <workItem from="1698999930447" duration="1139000" />
+      <workItem from="1699003193229" duration="222000" />
+      <workItem from="1699019762807" duration="4268000" />
     </task>
     <servers />
   </component>
