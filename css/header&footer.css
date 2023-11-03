@@ -6,6 +6,28 @@
     font-size: 13px;
 }
 
+/* rating css */
+.rating .stars i {
+    color: #66b840;
+}
+
+.product-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 10px;
+}
+
+.price-wrap {
+    display: flex;
+}
+
+.price-wrap > div {
+    font-size: 14px;
+}
+
+/* end rating */
+
 
 a {
     text-decoration: none;
@@ -79,6 +101,7 @@ a {
     justify-content: center;
     height: 40px;
     padding: 0 15px;
+
 }
 
 .header>.container {
@@ -145,9 +168,11 @@ a {
     visibility: visible;
 }
 
-.menu>.menu-item {
+.menu>.menu-item a {
     transition: all 0.3s;
 }
+
+
 
 .menu>.menu-item span:hover {
     color: rgba(51, 51, 51, 0.7);
@@ -218,6 +243,7 @@ a {
     height: 28px;
     height: auto;
     margin: 0 30px 0 40px;
+    cursor: pointer;
 }
 
 .action .cart .material-icons {
