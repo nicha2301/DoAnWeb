@@ -3,8 +3,11 @@ window.addEventListener("scroll", () => {
     header.classList.toggle("sticky", window.scrollY > 90);
 
     var headding = document.querySelector(".summary-inner");
-    headding.classList.toggle("headding-fix", window.scrollY > 30)
-    headding.classList.toggle("headding-absolute", window.scrollY > 553)
+    headding.classList.toggle("headding-fix", window.scrollY > 40)
+
+    var coor1 = document.querySelector(".detail-product .summary-inner")
+    var coor2 = document.querySelector(".detail-product")
+    headding.classList.toggle("headding-absolute", window.scrollY > coor2.clientHeight - coor1.clientHeight + 40)
 });
 
 
@@ -13,7 +16,7 @@ var previewImg = document.querySelector(".product-image-wrap img")
 var seeMore = document.getElementById('see-more')
 
 items.forEach(item => {
-    item.addEventListener("mouseover", e => {
+    item.addEventListener("click", e => {
         previewImg.src = e.target.src
         seeMore.href = e.target.src
     })
@@ -25,7 +28,7 @@ containerImg.addEventListener("mousemove", e => {
     var x = e.clientX - 100;
     var y = e.clientY - 90;
 
-    previewImg.style.transformOrigin = `${x}px ${y}px` 
+    previewImg.style.transformOrigin = `${x}px ${y}px`
     previewImg.style.transform = "scale(1.3)"
 })
 
