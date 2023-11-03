@@ -48,6 +48,20 @@
     margin: 0 10px;
 }
 
+.price-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price-wrapper .unit {
+    font-weight: bold;
+}
+
+.price-wrapper>div {
+    font-size: 28px;
+    color: #333;
+}
+
 .row {
     display: flex;
     padding-top: 30px;
@@ -176,7 +190,7 @@
     font-size: 34px;
     line-height: 1.2;
     --page-title-display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .wd-action-btn.wd-style-text i {
@@ -363,7 +377,7 @@
     padding: 15px;
 }
 
-.products .item .product-element-bottom a{
+.products .item .product-element-bottom a {
     font-size: 14px;
     line-height: 1.4;
     color: #242424;

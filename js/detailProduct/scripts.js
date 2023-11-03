@@ -3,11 +3,11 @@ window.addEventListener("scroll", () => {
     header.classList.toggle("sticky", window.scrollY > 90);
 
     var headding = document.querySelector(".summary-inner");
-    headding.classList.toggle("headding-fix", window.scrollY > 35)
+    headding.classList.toggle("headding-fix", window.scrollY > 40)
 
     var coor1 = document.querySelector(".detail-product .summary-inner")
     var coor2 = document.querySelector(".detail-product")
-    headding.classList.toggle("headding-absolute", window.scrollY  > coor2.clientHeight - coor1.clientHeight +35)
+    headding.classList.toggle("headding-absolute", window.scrollY > coor2.clientHeight - coor1.clientHeight + 40)
 });
 
 

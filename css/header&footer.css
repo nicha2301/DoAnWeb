@@ -243,6 +243,7 @@ a {
     height: 28px;
     height: auto;
     margin: 0 30px 0 40px;
+    cursor: pointer;
 }
 
 .action .cart .material-icons {
