@@ -237,3 +237,6 @@
 .link a {
 color: #66b840;
 }
+.link span {
+    margin: 0 5px;
+}
