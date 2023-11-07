@@ -25,17 +25,17 @@
 /* Style paragraphs and lists */
 .content p {
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .content ul {
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .content li {
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* Style links within the content */
