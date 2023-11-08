@@ -453,10 +453,14 @@
     outline: none;
     padding: 0.7rem;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     transition: 0.4s ease;
     width: auto;
     margin-top: 20px;
+    height: 40px;
 }
 
 .add-to-cart-button:active {
@@ -470,8 +474,7 @@
     cursor: pointer;
 }
 
-.add-to-cart-button:hover,
-.add-to-cart-button:focus {
+.add-to-cart-button:hover {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 186, 3, .45);
     box-shadow: 0 0 0 0.2rem rgba(252, 186, 3, .45);
     -webkit-transform: translateY(-1px);
@@ -500,7 +503,7 @@
 
 .add-to-cart-button.added .box-1,
 .add-to-cart-button.added .box-2 {
-    top: 16px;
+    top: 17px;
 }
 
 .add-to-cart-button.added .tick {
@@ -512,6 +515,7 @@
 .add-to-cart,
 .added-to-cart {
     margin-left: 36px;
+    font-weight: bold;
 }
 
 .added-to-cart {
@@ -545,16 +549,16 @@
 .cart-icon {
     left: 15px;
     position: absolute;
-    top: 5px;
+    top: 8px;
 }
 
 .tick {
     background: #146230;
     border-radius: 50%;
     position: absolute;
-    left: 28px;
+    left: 18px;
     transform: scale(0);
-    top: 5px;
+    top: 8px;
     z-index: 2;
 }
 
@@ -605,5 +609,3 @@
         transform: translateY(1px);
     }
 }
-
-/* Page style */
