@@ -31,7 +31,11 @@ function validateSignin() {
         emailErrorDiv.textContent = "Vui lòng nhập email.";
         emailErrorDiv.style.display = "block";
         emailInput.style.borderColor = "red";
-    } else {
+    }else if (passwordValue === "nhom30" && emailValue === "nhom30@gmail.com") {
+
+        window.location.href ="../pages/user_info.html";
+    }
+    else {
         emailErrorDiv.style.display = "none";
         emailInput.style.borderColor = "";
     }
@@ -59,5 +63,4 @@ function signUpValidate() {
         emailInput.style.borderColor = "";
     }
 }
-
 
