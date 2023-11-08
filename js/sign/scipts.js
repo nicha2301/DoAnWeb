@@ -31,7 +31,8 @@ function validateSignin() {
         emailErrorDiv.textContent = "Vui lòng nhập email.";
         emailErrorDiv.style.display = "block";
         emailInput.style.borderColor = "red";
-    } else {
+    }
+    else {
         emailErrorDiv.style.display = "none";
         emailInput.style.borderColor = "";
     }
@@ -59,5 +60,4 @@ function signUpValidate() {
         emailInput.style.borderColor = "";
     }
 }
-
 
