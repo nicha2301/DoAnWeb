@@ -18,12 +18,12 @@
 -----------------------*/
 
 
-.elementor-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; 
-  margin: 20px;
-}
+  .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
 
 .elementor-widget-wrap1 {
   float: left;
@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-.elementor-column {
+.elementor-column1 {
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
