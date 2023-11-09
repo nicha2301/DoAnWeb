@@ -150,3 +150,62 @@ p {
 .user-dropdown:hover .user-dropdown-content {
     display: block;
 }
+.myorder__style .heading {
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: 300;
+    margin: 20px 0px 15px;
+}
+.myorder__style .inner {
+    /* background-color:  #; */
+    border-radius: 4px;
+    padding: 1px;
+    min-height: 400px;
+}
+.inner-fvPr{
+    width: 870px;
+    height: 500px;
+    border-left: 1px solid #689f38 ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.myorder__style table {
+    border-collapse: collapse;
+    width: 100%;
+    word-break: break-word;
+}
+.myorder__style tr {
+    border-bottom: 1px solid #689f38;
+}
+.myorder__style th, .myorder__style td {
+    min-width: 130px;
+    padding: 20px 15px;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.my-coupon-code{
+    min-width: 70px;
+}
+.my-coupon-code img{
+    width: 80%;
+}
+.myorder__style th{
+    font-weight: bold;
+}
+.myorder__style td a{
+    color: #689f38;
+}
+.myorder__style td a:hover{
+    color: #689f38;
+    font-size: larger;
+}
+.myorder__style th:last-child, .myorder__style td:last-child {
+    text-align: right;
+}
+.myorder__style td {
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+}
