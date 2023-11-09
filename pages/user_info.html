@@ -350,18 +350,18 @@
                 <tbody>
                 <tr>
                   <td>
-                    <a href="order-detail.html">673617832</a>
+                    <a href="order_detail.html">673617832</a>
                   </td>
-                  <td>30/10/2020</td>
-                  <td>Thuốc kháng xin</td>
-                  <td>90.000 VNĐ</td>
+                  <td>30/10/2023</td>
+                  <td>Vắc xin vô hoạt</td>
+                  <td>230.000 VNĐ</td>
                   <td>Giao hàng thành công</td>
                 </tr>
                 <tr>
                   <td>
                     <a href="#">219844147</a>
                   </td>
-                  <td>12/04/2020</td>
+                  <td>12/10/2023</td>
                   <td>Thuốc kháng viêm</td>
                   <td>156.000 VNĐ</td>
                   <td>Giao hàng thành công</td>
@@ -370,16 +370,16 @@
                   <td>
                     <a href="#">972084147</a>
                   </td>
-                  <td>09/09/2019</td>
+                  <td>09/10/2013</td>
                   <td>Sát trùng</td>
                   <td>350.000 VNĐ</td>
                   <td>Đã hủy</td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="/sales/order/view/404252736">404252736</a>
+                    <a href="#">404252736</a>
                   </td>
-                  <td>14/04/2018</td>
+                  <td>05/10/2013</td>
                   <td>Dinh Dưỡng</td>
                   <td>172.000 VNĐ</td>
                   <td>Đã hủy</td>
@@ -529,5 +529,57 @@
     </div>
   </footer>
 </div>
+<script src="../js/thuvien/jquery-3.3.1.min.js"></script>
+<script src="../js/thuvien/bootstrap.min.js"></script>
+<script src="../js/thuvien/main.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#formAcount").validate({
+      rules: {
+        fullname: {
+          required: true
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        cityID: {
+          required: true
+        },
+        district: {
+          required: true
+        },
+        ward: {
+          required: true
+        },
+        address:  {
+          required: true
+        }
+      },
+      messages: {
+        fullname: {
+          required: "Xin vui lòng nhập tên"
+        },
+        email: {
+          required: "Xin vui lòng nhập email",
+          email: "Email không hợp lệ, xin vui lòng nhập lại"
+        },
+        cityID: {
+          required: "Xin chọn tỉnh/thành phố"
+        },
+        district: {
+          required: "Xin vui lòng nhập quận/huyện"
+        },
+        ward: {
+          required: "Xin vui lòng nhập xã/ phường/ thị trấn"
+        },
+        address:  {
+          required: "Xin vui lòng nhập địa chỉ"
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>
