@@ -33,7 +33,7 @@
         <div class="header-nav" role="navigation" aria-label="Main navigation">
           <ul class="menu-2 m-0 p-0" >
             <li class="menu-item" class="d-flex">
-              <a href=""><span class="nav-link-text">Thuốc Y The Pet</span></a>
+              <a href="../index.html"><span class="nav-link-text">Thuốc Y The Pet</span></a>
             </li>
             <li class="menu-item">
               <a href="introduce.html"><span class="nav-link-text">Giới thiệu</span></a>
@@ -46,31 +46,22 @@
               <div class="">
                 <ul class="sub-menu">
                   <li class="menu-item">
-                    <a href="">Thuốc thú
-                      y</a>
+                    <a href="">Thức ăn chăn nuôi</a>
                   </li>
                   <li class="menu-item">
-                    <a href="">Thức
-                      ăn chăn nuôi</a>
+                    <a href="">Chăm sóc thú cưng</a>
                   </li>
                   <li class="menu-item">
-                    <a href="">Chăm
-                      sóc thú cưng<i class="fa-solid fa-angle-right"></i></a>
+                    <a href="">Thuốc thú y<i class="fa-solid fa-angle-right"></i></a>
                     <ul class="sub-sub-menu">
                       <li class="menu-item">
-                        <a
-                                href="">Dầu
-                          tắm thú cưng</a>
+                        <a href="">Thuốc kháng sinh</a>
                       </li>
                       <li class="menu-item">
-                        <a
-                                href="">Vệ
-                          sinh sát trùng</a>
+                        <a href="">Thuốc sát trùng</a>
                       </li>
                       <li class="menu-item">
-                        <a
-                                href="">Phụ
-                          kiện làm đẹp</a>
+                        <a href="">Vắc xin phòng bệnh</a>
                       </li>
                     </ul>
                   </li>
@@ -103,10 +94,16 @@
           <div class="user-dropdown">
             <i class="fas fa-user fa-2x" style="color: #66b840" id="user-icon"></i>
             <div class="user-dropdown-content" id="user-dropdown-content">
-              <a href="user_info.html">Quản lí thông tin cá nhân</a>
-              <a href="signIn.html">Đăng xuất</a>
+                <ul class="user-menu">
+                    <li class="user-menu-item">
+                        <a href="user_info.html"><span class="nav-link-text">Quản lý thông tin cá nhân</span></a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="signIn.html"><span class="nav-link-text">Đăng xuất</span></a>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </div>
 
         </div>
       </div>
@@ -532,7 +529,12 @@
 <script src="../js/thuvien/jquery-3.3.1.min.js"></script>
 <script src="../js/thuvien/bootstrap.min.js"></script>
 <script src="../js/thuvien/main.js"></script>
-
+<script>
+  window.addEventListener('scroll', () => {
+  var header = document.querySelector('.container-2')
+  header.classList.toggle('sticky', window.scrollY > 100)
+})
+</script>
 <script>
   $(document).ready(function(){
     $("#formAcount").validate({
@@ -581,5 +583,6 @@
     });
   });
 </script>
+
 </body>
 </html>

@@ -1,4 +1,3 @@
-
 /*---------------------
   Shop Cart
 -----------------------*/
@@ -99,23 +98,11 @@
     color: #1c1c1c;
 }
 
-.shoping__cart__table
-table
-tbody
-tr
-td.shoping__cart__quantity
-.pro-qty
-input::placeholder {
+.shoping__cart__table table tbody tr td.shoping__cart__quantity .pro-qty input::placeholder {
     color: #1c1c1c;
 }
 
-.shoping__cart__table
-table
-tbody
-tr
-td.shoping__cart__quantity
-.pro-qty
-.qtybtn {
+.shoping__cart__table table tbody tr td.shoping__cart__quantity .pro-qty .qtybtn {
     width: 15px;
 }
 
@@ -213,6 +200,7 @@ td.shoping__cart__quantity
     display: block;
     text-align: center;
 }
+
 .pro-qty {
     width: 140px;
     height: 50px;
@@ -255,26 +243,27 @@ td.shoping__cart__quantity
 }
 
 .site-btn {
-    font-family: roboto-bold;
     font-size: 14px;
     color: #ffffff;
-    font-weight: 800;
+    font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
     padding: 13px 30px 12px;
     background: #7fad39;
     border: none;
 }
+
 .col-lg-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
 }
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -282,11 +271,13 @@ body {
     text-align: left;
     background-color: #fff;
 }
+
 *,
 ::after,
 ::before {
     box-sizing: border-box;
 }
+
 .custom-row {
     display: flex;
 }
@@ -295,6 +286,7 @@ body {
     flex: 1;
     padding: 0 15px;
 }
+
 .page-title {
     height: 200px;
     background-size: cover;
@@ -304,14 +296,15 @@ body {
     justify-content: center;
     margin-bottom: 40px;
 }
+
 .page-title .title {
     color: white;
     font-size: 68px;
 }
 
 
-    /*CSS CHO USER INFO */
-.user-dropdown {
+/*CSS CHO USER INFO */
+/* .user-dropdown {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -339,4 +332,59 @@ body {
 
 .user-dropdown:hover .user-dropdown-content {
     display: block;
+} */
+
+.user-dropdown-content {
+    cursor: pointer;
+    position: relative;
+}
+
+.user-dropdown i {
+    cursor: pointer;
+}
+
+.user-dropdown:hover .user-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.user-dropdown-content .user-menu {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    list-style: none;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), visibility 0.4s cubic-bezier(0.19, 1, 0.22, 1), transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 10;
+    padding: 12px 10px;
+    text-wrap: nowrap;
+    margin-top: 15px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.user-dropdown-content .user-menu-item::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: 100%;
+    height: 15px;
+}
+
+.user-dropdown-content .user-menu-item a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 10px;
+}
+
+.user-dropdown-content .user-menu-item span:hover {
+    color: #26b402;
+}
+
+.user-dropdown-content .user-menu-item span {
+    font-size: 14px;
+    color: #848484
 }
