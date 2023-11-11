@@ -22,7 +22,7 @@
     display: flex;
 }
 
-.price-wrap > div {
+.price-wrap>div {
     font-size: 14px;
 }
 
@@ -171,8 +171,6 @@ a {
 .menu>.menu-item a {
     transition: all 0.3s;
 }
-
-
 
 .menu>.menu-item span:hover {
     color: rgba(51, 51, 51, 0.7);
