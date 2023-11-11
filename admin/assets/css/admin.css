@@ -766,18 +766,17 @@ button.bg-danger:hover {
 }
 
 .btn-primary {
-	background-color: #7fad39;
-	border: 1px solid #7fad39;
+	background-color: #66b840;
+	border: 1px solid #66b840;
 }
 
-/* Tien fix.............................................................. */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.active,
 .btn-primary:active,
 .open>.dropdown-toggle.btn-primary {
-	background-color: #75a829;
-	border: 1px solid #75a829;
+	background-color: #66b830;
+	border: 1px solid #66b830;
 }
 
 .btn-primary.active.focus,
@@ -3240,7 +3239,7 @@ small.help-block {
 	z-index: -1;
 	pointer-events: none;
 	height: 50vh;
-	background-color: #7fad39;
+	background-color: #66b840;
 	border-radius: 0 0 2.5rem 2.5rem;
 	z-index: 0;
 }
@@ -3277,7 +3276,7 @@ small.help-block {
 }
 
 .login-header h3 span {
-	color: #7fad39;
+	color: #66b840;
 }
 
 .login-body .form-control {
